@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">My Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>About Me</h2>
+        <p>Welcome to my personal website! Here you can find information about me and my work.</p>
+
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="tweets.html">View My Tweets</a></li>
+        </ul>
+
+        <article>
+            <h3>Latest Updates</h3>
+            <p>Check out my latest thoughts and updates on my <a href="tweets.html">tweets page</a>.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
