@@ -1,0 +1,23 @@
+body {
+    color: #404040;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF4500;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    border-top: 1px solid #CCCCCC;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 10px;
+}
