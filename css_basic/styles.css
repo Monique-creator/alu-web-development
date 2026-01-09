@@ -1,23 +1,28 @@
-/* 1. Set body as a flex container with a column layout */
+/* Previous positioning rules */
 body {
     display: flex;
     flex-direction: column;
 }
 
-/* 2. Set main as a flex container with a row layout */
 main {
     display: flex;
     flex-direction: row;
-    flex: auto; /* Ensures main takes up the available space */
+    flex: auto;
 }
 
-/* 3. Assign width proportions to article and aside */
 article {
-    flex: 2; /* Takes up 2/3 of the width */
-    overflow-y: auto; /* Enables vertical scrolling if content is long */
+    flex: 2;
+    overflow-y: auto;
 }
 
 aside {
-    flex: 1; /* Takes up 1/3 of the width */
-    overflow-y: auto; /* Enables vertical scrolling if content is long */
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* New Responsive rules for smartphones */
+@media screen and (max-width: 768px) {
+    .works_on_smartphone main {
+        flex-direction: column; /* Stacks article and aside vertically */
+    }
 }

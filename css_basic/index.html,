@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Responsive Website</title>
     <link href="base.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body class="works_on_smartphone">
     <header>
         <h1>Welcome to My Website</h1>
     </header>
     <main>
-        <p>This is the main content of the index page.</p>
-        <a href="tweets.html">Go to Tweets</a>
+        <article>
+            <h2>Main Content</h2>
+            <p>This is where your main story or information goes. On a computer, this takes up 2/3 of the width.</p>
+        </article>
+        <aside>
+            <h2>Sidebar</h2>
+            <p>This is the sidebar. On a computer, it is on the right. On a phone, it will move below the article.</p>
+        </aside>
     </main>
     <footer>
         <p>Made with love at ALU</p>
