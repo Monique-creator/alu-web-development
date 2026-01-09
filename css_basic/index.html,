@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Responsive Website</title>
+    <title>My Unique Website</title>
     <link href="base.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body class="works_on_smartphone">
     <header>
-        <h1>Welcome to My Website</h1>
+        <ul>
+            <li class="logo">&#10024;</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
     </header>
+
     <main>
         <article>
-            <h2>Main Content</h2>
-            <p>This is where your main story or information goes. On a computer, this takes up 2/3 of the width.</p>
+            <h1>The Creative Space</h1>
+            <p>Welcome to my custom-styled corner of the web. This article section is fully customized with a clean card-like feel.</p>
+            <div class="content-box">
+                <p>Experimenting with backgrounds and borders inside the article tag!</p>
+            </div>
         </article>
+
         <aside>
             <h2>Sidebar</h2>
-            <p>This is the sidebar. On a computer, it is on the right. On a phone, it will move below the article.</p>
+            <p>Additional links or info go here.</p>
         </aside>
     </main>
+
     <footer>
-        <p>Made with love at ALU</p>
+        <p>Created by [Your Name] - ALU Web Dev</p>
     </footer>
 </body>
 </html>

@@ -1,7 +1,8 @@
-/* Previous positioning rules */
+/* --- MANDATORY POSITIONING (Do not change) --- */
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh; /* Ensures footer stays at bottom */
 }
 
 main {
@@ -12,17 +13,75 @@ main {
 
 article {
     flex: 2;
+    padding: 20px;
     overflow-y: auto;
 }
 
 aside {
     flex: 1;
+    padding: 20px;
     overflow-y: auto;
 }
 
-/* New Responsive rules for smartphones */
 @media screen and (max-width: 768px) {
     .works_on_smartphone main {
-        flex-direction: column; /* Stacks article and aside vertically */
+        flex-direction: column;
     }
+}
+
+/* --- CUSTOM STYLING (The "Unique" Part) --- */
+
+/* Logo Styling */
+.logo {
+    font-size: 40px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* Header & Nav */
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    margin: 0;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #3498db;
+}
+
+/* Article Styling */
+article {
+    background-color: #ffffff;
+    border-right: 2px solid #ecf0f1;
+}
+
+.content-box {
+    background: #f9f9f9;
+    border-left: 5px solid #3498db;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Sidebar Styling */
+aside {
+    background-color: #f4f7f6;
+}
+
+/* Footer Styling */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
